@@ -1,0 +1,91 @@
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   :Ativiade Repita  23/09/24
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 07/10/2024
+Var
+// Seção de Declarações das variáveis
+n1,n2,soma:real
+opcao:caracter
+Inicio
+ repita
+ escreva("digite primeiro nun.")
+ leia(n1)
+ escreva("digite segundo nun.")
+ leia(n2)
+ soma<- n1+n2
+ escreva("A soma é:", soma)
+ escreva("deseja continuar?")
+ leia(opcao)
+ate (opcao="nao")
+Fimalgoritmo
+
+
+Algoritmo
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   :Ativiade Repita  23/09/24
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 07/10/2024
+Var
+// Seção de Declarações das variáveis
+resul:real
+i:real
+numero:inteiro
+
+Inicio
+ i<-1
+ repita
+ escreval(i)
+ i<-i+2
+ ate i>19
+Fimalgoritmo
+
+
+Algoritmo  "000000"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   :Ativiade Repita  23/09/24
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 07/10/2024
+Var
+// Seção de Declarações das variáveis
+
+precodoitem, soma:real
+i:inteiro
+valor:real
+Inicio
+ i<-1
+ repita
+ escreva("digite valor")
+ leia(valor)
+ soma <- soma+precodoitem
+ i+1
+ ate i<20
+ escreva("valortotal:",soma)
+Fimalgoritmo
+
+Algoritmo  "000000"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Larissa Ribeiro
+// Descrição   :Ativiade Repita  23/09/24
+// Autor(a)    : LEVI LIVIA
+// Data atual  : 07/10/2024
+Var
+// Seção de Declarações das variáveis
+cont,n1,menor:inteiro
+
+Inicio
+
+ escreva("digite um numero.")
+ leia(menor)
+ repita
+ escreva("digite um numero")
+  leia(n1)
+ se n1 < menor entao
+ menor <- n1
+ fimse
+ cont<- cont+1
+ ate cont=9
+ escreva(menor)
+Fimalgoritmo
