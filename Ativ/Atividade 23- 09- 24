@@ -6,7 +6,7 @@ ENCONTRADA MANUALMENTE E DA SOLUÇAO QUE RODA NO VISUALG?
 QUAL FOI? EXPLIQUE COMO FOI CORRIGIDO
 
 
-
+1
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Larissa Ribeiro
 // Descrição   :Ativiade Repita  23/09/24
@@ -29,7 +29,7 @@ Inicio
 ate (opcao="nao")
 Fimalgoritmo
 
-
+2
 Algoritmo
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Larissa Ribeiro
@@ -50,7 +50,7 @@ Inicio
  ate i>19
 Fimalgoritmo
 
-
+3
 Algoritmo  "000000"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Larissa Ribeiro
@@ -74,6 +74,7 @@ Inicio
  escreva("valortotal:",soma)
 Fimalgoritmo
 
+4
 Algoritmo  "000000"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Larissa Ribeiro
@@ -98,3 +99,46 @@ Inicio
  ate cont=9
  escreva(menor)
 Fimalgoritmo
+
+
+5. Resposta:  Sim. Erro ocorreu na resolução do exemplo e faltava o 
+Parêntese. 
+
+Como estava:
+
+Var
+// Seção de Declarações das variáveis
+n1,n2,soma:real
+opcao:caracter
+Inicio
+ repita
+ escreva("digite primeiro nun.")
+ leia(n1)
+ escreva("digite segundo nun.")
+ leia(n2)
+ soma<- n1+n2
+ escreva("A soma é:", soma)
+ escreva("deseja continuar?")
+ leia(opcao)
+ate opcao="nao"
+Fimalgoritmo
+
+Correção:
+
+Var
+// Seção de Declarações das variáveis
+n1,n2,soma:real
+opcao:caracter
+Inicio
+ repita
+ escreva("digite primeiro nun.")
+ leia(n1)
+ escreva("digite segundo nun.")
+ leia(n2)
+ soma<- n1+n2
+ escreva("A soma é:", soma)
+ escreva("deseja continuar?")
+ leia(opcao)
+ate (opcao="nao")
+Fimalgoritmo
+
